@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>QaSeleniumCore</id>w
+    <version>1.01.07</version>
+    <authors>Mason Peterson</authors>
+    <owners>The Church of Jesus Christ</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A base framework to make writing automation faster and easier</description>
+    <releaseNotes>Updated: Test.Sdk > 16.9.1, ChromeDriver > 89, Added: FindSelected Method, optional int parameter all controls, Renamed: List Control > ElementList, ElementList > ListOfElements</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>.NetCore, Selenium, Automation, Framework, QA</tags>
+    <dependencies>
+      <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" />
+      <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.10" />
+      <dependency id="Microsoft.EntityFrameworkCore.Tools" version="3.1.10" />
+      <dependency id="Microsoft.EntityFrameworkCore.Design" version="3.1.10" />
+      <dependency id="Microsoft.NET.Test.Sdk" version="16.9.1" />
+      <dependency id="NUnit" version="3.13.1" />
+      <dependency id="NUnit3TestAdapter" version="3.17.0" />
+      <dependency id="Selenium.WebDriver.ChromeDriver" version="89.0.4389.2300" />
+      <dependency id="Selenium.Firefox.WebDriver" version="0.27.0" />
+      <dependency id="Selenium.InternetExplorer.WebDriver" version="3.150.1" />
+      <dependency id="Selenium.Support" version="3.141.0" />
+      <dependency id="Selenium.WebDriver" version="3.141.0"/>
+      <dependency id="Selenium.WebDriver.MicrosoftDriver" version="17.17134.0" />
+      <dependency id="Selenium.WebDriverBackedSelenium" version="3.141.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netcoreapp3.1\QaSeleniumCore.dll" target="lib\"/>
+  </files>
+</package>
